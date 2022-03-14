@@ -65,7 +65,7 @@ let auto2 = {
 }
 let persona2 = {
     capacidadDePagoTotal: 100000000,
-    capacidadDePagoEnCuotas: 100,
+    capacidadDePagoEnCuotas: 100000,
 }
 
 console.log(concesionaria.puedeComprar(auto2, persona2));
